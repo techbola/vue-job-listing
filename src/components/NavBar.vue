@@ -25,8 +25,8 @@
                 Jobs
               </router-link>
               <router-link
-                :to="{ name: 'Jobs' }"
-                :class="[isActiveLink('/jobs') ?  'bg-green-900' : 'hover:bg-gray-900 hover:text-white', 'text-white', 'rounded-md', 'px-3', 'py-2']"
+                :to="{ name: 'AddJob' }"
+                :class="[isActiveLink('/jobs/add') ?  'bg-green-900' : 'hover:bg-gray-900 hover:text-white', 'text-white', 'rounded-md', 'px-3', 'py-2']"
               >
                 Add Job
               </router-link>
