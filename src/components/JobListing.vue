@@ -21,12 +21,12 @@
         <i class="pi pi-map-marker text-orange-700"></i>
         {{ job.location }}
       </div>
-      <a
-        href="job.html"
+      <router-link
+        :to="{ name: 'Jobs' }"
         class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm"
       >
         Read More
-      </a>
+      </router-link>
     </div>
   </div>
 </template>
