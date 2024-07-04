@@ -32,7 +32,7 @@
 </template>
 
 <script setup>
-import Card from '@/components/Card.vue'
+import Card from '@/components/CardComponent.vue'
 </script>
 
 <style lang="scss" scoped>
